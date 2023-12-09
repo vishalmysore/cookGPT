@@ -1,3 +1,5 @@
+![plot](cookGPT.png)
+
 # CookGPT: Your AI-Based Chef
 
 CookGPT is an innovative AI-based chef that combines the charm of traditional cooking with the efficiency of modern technology. Whether you're a culinary enthusiast, a busy professional, or someone looking for culinary inspiration, CookGPT is designed to make your cooking experience delightful, personalized, and effortless.
