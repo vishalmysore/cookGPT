@@ -9,10 +9,12 @@ CookGPT is an innovative AI-based chef that combines the charm of traditional co
 CookGPT allows you to record the entire cooking process of your favorite dishes. With a simple click on your phone, the recorded video is converted into text and stored in the Language Model (LLM). This ensures the preservation of cherished family recipes for generations to come.
 
 ### 2. **Smart Grocery Shopping**
+![plot](img.png)
 
 Walking into a grocery store becomes a breeze with CookGPT. The app, leveraging your location data, identifies the store and provides you with a list of various recipes you can cook based on the available grocery items. Simplify your shopping experience and discover new recipes based on fresh ingredients.
 
 ### 3. **Smart Fridge**
+![plot](fridge.png)
 
 Click a photo of the contents inside your fridge, and CookGPT, considering your dietary preferences and nutritional needs, suggests various recipes. Reduce food waste by utilizing what's available and promote a healthier lifestyle with personalized recipes.
 
