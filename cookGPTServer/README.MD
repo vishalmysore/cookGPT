@@ -2,7 +2,7 @@ Server Side Component of CookGPT
 
 ``mvn clean install``
 
-``mvn springboot:run``
+``mvn spring-boot:run``
 
 You need MongoDB running on local machine
 
