@@ -13,4 +13,9 @@ public class Rating {
     int rating;
     String receipeId;
     String contributorId;
+    RecipeSubtype subtype;
+    RecipeFlavor flavor;
+    RecipeType type;
+    NutritionalValue nutritionalValue;
+
 }
