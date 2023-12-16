@@ -17,7 +17,11 @@ def generate_example(prompt, prev_examples, temperature=.5):
     messages=[
         {
             "role": "system",
-            "content": "You are an expert check experienced in preparing Indian Cusine"
+            "content": "You are helping me create a dataset for indian receipes"
+        },
+        {
+            "role": "user",
+            "content": "give me 3 different Indian receipe"
         }
     ]
 
