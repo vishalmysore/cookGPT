@@ -8,7 +8,7 @@ import lombok.*;
 @AllArgsConstructor
 @Setter
 @Getter
-@RequiredArgsConstructor
+
 public class NutritionalValue {
     String id;
     Long protein;
