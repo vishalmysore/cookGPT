@@ -1,0 +1,47 @@
+@startuml
+!define ICONURL https://raw.githubusercontent.com/rabelenda/cicon-plantuml-icons/v2.3
+!define ICONPATH cicon/ico
+!define ICONPNG ${ICONPATH}/png
+!define ICONIMG(icon) <img: ${ICONPNG}/${icon}.png >
+
+!define RECTANGLE class
+
+!define AWSIMG(aws) <img: ${ICONPNG}/aws/${aws}.png >
+
+package "cookGPT Project" {
+    [User Interface] as UI
+    [NLP Service] as NLP
+    [Recipe Generation Service] as RecipeService
+    [Ingredient Recommendation Service] as IngredientService
+    [Database] as Database
+    [External Recipe APIs] as ExternalAPI
+    [Machine Learning Models] as MLModels
+    [Authentication & Authorization] as Auth
+    [Logging and Monitoring] as Logging
+    [Deployment and Infrastructure] as Deployment
+    [Security Components] as Security
+    [Testing Components] as Testing
+    [Documentation] as Docs
+    [Collaboration and Communication] as Collaboration
+
+    UI -- NLP
+    UI -- RecipeService
+    UI -- IngredientService
+    IngredientService -- ExternalAPI
+    RecipeService -- Database
+    RecipeService -- MLModels
+    Auth -- UI
+    Auth -- RecipeService
+    Logging -- Monitoring
+    Deployment -- Database
+    Deployment -- Security
+    Security -- Database
+    Testing -- RecipeService
+    Testing -- MLModels
+    Docs -- UI
+    Docs -- RecipeService
+    Collaboration -- UI
+    Collaboration -- RecipeService
+}
+
+@enduml
